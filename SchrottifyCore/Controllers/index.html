@@ -1,0 +1,12 @@
+<button onclick="play()">Play</button>
+<button onclick="pause()">Pause</button>
+
+<script>
+function play() {
+    fetch('/playback/play?path=path_to_your_file.mp3');
+}
+
+function pause() {
+    fetch('/playback/pause');
+}
+</script>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+<ItemGroup>
+    <ProjectReference Include="Modules\MusicLoader\MusicLoader.csproj" />
+    <ProjectReference Include="Modules\MP3TagEditor\MP3TagEditor.csproj" />
+    <ProjectReference Include="Modules\PlaylistManager\PlaylistManager.csproj" />
+    <ProjectReference Include="Modules\MusicPlayerModule\MusicPlayerModule.csproj" />
+</ItemGroup>
+
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

@@ -56,4 +56,15 @@ static void LoadMP3Files(string directory)
 
 }
 
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    // ... other middleware ...
+
+    app.UseStaticFiles(); // Enables serving static files from wwwroot
+
+    // ... other middleware, e.g., UseRouting, UseEndpoints ...
+}
+
+
 }
